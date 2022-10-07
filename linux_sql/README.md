@@ -9,11 +9,11 @@ This project was implemented using bash scripts and docker.  The automation is p
 ## Quick Start
 1. Start a psql instance using docker
 
-`./scripts/psql_docker.sh create dbuser dbpassword `
+`./scripts/psql_docker.sh create postgres password`
 
 2. Create a database using psql named host_agent
 
-`psql -h localhost -U dbuser -W`
+`psql -h localhost -U postgres -W`
 
 `postgres=# CREATE DATABASE host_agent;`
 
@@ -96,4 +96,4 @@ This project was for meant learning purposes so has not been deployed anywhere, 
 - Handle hardware updates
 	- As it stands, our monitoring agent does not update our database if the hardware of our machine changes, it would be nice to track these changes via a new table
 - More automation
-	- Right now, we are manually creating a host_agent database, running multiple files, and setting up a cron jab, would be nice to encapsulate everything into a single script
+	- Right now, we are manually creating a host_agent database, running multiple files, and setting up a cron job, ideally, we encapsulate everything into a single script
