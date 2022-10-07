@@ -36,7 +36,7 @@ This project was implemented using bash scripts and docker.  The automation is p
 
 ## Implementation
 ### Architecture
-![my_image](./assets/arch.png)
+![my_image](./assets/arch1.png)
 
 ### Scripts
 psql_docker.sh:
