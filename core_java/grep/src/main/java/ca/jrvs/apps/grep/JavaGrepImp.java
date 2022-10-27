@@ -27,7 +27,7 @@ public class JavaGrepImp implements JavaGrep {
     }
 
     JavaGrepImp javaGrepImp = new JavaGrepImp();
-    javaGrepImp.setRegex(args[0]);    // eg.: .*Romeo.*Juliet.*"
+    javaGrepImp.setRegex(args[0]);    // eg.: .*Romeo.*Juliet.*
     javaGrepImp.setRootPath(args[1]); // eg.: grep/data/txt
     javaGrepImp.setOutFile(args[2]);  // eg.: grep/out/outputFile.txt
 
@@ -41,8 +41,6 @@ public class JavaGrepImp implements JavaGrep {
   @Override
   public void process() throws IOException {
     List<String> matchedLines = new ArrayList<>();
-    List<File> files = listFiles(this.rootPath);
-    List<String> lines = readLines(files.get(0));
     for (File file : listFiles(this.rootPath)) {
       for (String line : readLines(file)) {
         if (containsPattern(line)) {
