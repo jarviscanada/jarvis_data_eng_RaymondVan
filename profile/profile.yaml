@@ -9,30 +9,31 @@ github_repo_root_url: https://github.com/raymond-van
 # 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
 # 3) mention what kind of role you are looking for
 # 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your
-summary: (WIP) I am a computer science graduate from York University. During my time at York, I .... . Most recently, I worked as a Software Engineer at Viral Nation where I learned a lot about full stack web development. I'm passionate about difficult technical challenges and acquiring the skills to solve them.  ... 
+summary: I am a computer science graduate from York University. Most recently, I worked as a Software Engineer at Viral Nation where I learned a lot about full stack web development and what it takes to build a production ready application. This includes not only engineering and operations, but more importantly, a focused team that can cohesively work together to meet and exceed business requirements. On my free time, I enjoy working on difficult technical challenges, particularly ones that if solved, can bring a lot of value to the world. For this reason, I like to keep up with the latest developments in machine learning research (specifically, reinforcement learning). The experience and skills I've gained over the years gives me the confidence to believe that I can be a valuable asset for any company. I would like to work for a company that has the same motives as myself - creating real world value and pushing the boundaries of what is technologically possible.
+
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 # DO NOT mention skills that you don't want to work on in the future (e.g. MS office)
-skills:
+skills: 
   # At least 5 skills
   proficient:
     - Java
-    - C++
     - Python
+    - Express
     - JavaScript
     - Machine Learning
   # At least 5 skills
   competent:
     - PyTorch
-    - Express
+    - C++
     - React
     - RDBMS/SQL
     - Apollo GraphQL
   # At least 5 skills
   familiar:
     - C
-    - GoLang
+    - Go
     - Solidity
     - Django
     - AWS
@@ -50,9 +51,9 @@ jarvis_projects:
       #Keywords: Java 8, REST API, OAuth, Design patterns (e.g. DAO, MVC), JUnit, Mockito, Docker
 #      - "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
       # Keywords: Java 8, JDBC, RDBMS, SQL, CRUD,DAO
-      - "JDBC App: Todo"
+      - "JDBC App: Developed a Java 8 application that uses JDBC to connect to a PostgreSQL database that has been provisioned using Docker. Gained experience using a JDBC API where I followed the typical JDBC workflow to perform CRUD operations. Moreover, I used Maven to manage my dependencies."
       # Keywords: Java 8, Lambda, Stream API, IntelliJ
-      - "Grep App: Todo"
+      - "Grep App: Built and deployed a Java 8 app that reimplements the Grep linux command. My implementation uses Lambda functions and the Stream API to recursively search a directory for files that match a given regex pattern as input. Matched lines are then outputted to a log file. Moreover, the app was packaged via Maven and deployed to Docker Hub for distribution."
   # Please remove not started projects below so that they don't show up in your profile for now.
   # You will need to add a project back to your profile upon completion
 #  - name: "Spring RESTful Microservices App"
@@ -82,7 +83,7 @@ highlighted_projects:
     git_url: "https://github.com/raymond-van/planet"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Reproduced modern machine learning research (PlaNet, Hafner et al.) using PyTorch. PlaNet is a model-based reinforcement learning agent that learns a world model and uses it to maximize its objective by planning in latent space. Achieved comparable performance to the original authors on select control tasks. Wrote a paper and presented my results.
-  - name: "Cryptocurrency Trading Bot (GoLang)"
+  - name: "Cryptocurrency Trading Bot (Go)"
     git_url:
     description: Created a trading bot that finds arbitrage opportunities on decentralized exchanges and automatically executes trades if a profit can be made. Utilized low-level OS concepts (multithreading) to improve performance, graph algorithms (DFS) to quickly find profitable trading paths and applied calculus to determine the optimal input amount that would maximize profit. Wrote smart contracts to execute trades on the Ethereum blockchain.
   - name: "Miscellaneous projects"
@@ -98,13 +99,13 @@ professional_experience:
     company: "Jarvis Consulting Group"
     duration: "Sep 2022 - present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Built various Java projects using technologies like Spring and Docker."
+    description: "Designed, built and tested various Java projects using technologies like Spring, Maven and Docker while following the traditional software development lifecycle. Gained experience working in an agile/scrum environment. Other technologies used include: writing bash scripts, using JDBC and creating/using REST APIs."
   - title: "Software Engineer"
     company: "Viral Nation"
     duration: "Jun 2022 - Aug 2022"
     description: "Created, fixed and migrated a variety of REST/GraphQL APIs and integrated them into a React/Redux frontend. Developed the notifications feature using AWS SNS, SQS and websockets. Implemented cookie-based authentication with JWT tokens to improve security and persist user sessions."
   - title: "Research Volunteer"
-    company: "APTLY Lab @ York University"
+    company: "APTLY Lab"
     duration: "Sep 2017 - Dec 2017"
     description: "Investigated how different hyperparameters (batch-size, # of layers) effected the accuracy and performance of a deep neural network."
 
