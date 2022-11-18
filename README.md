@@ -1,6 +1,6 @@
 # Raymond Van . Jarvis Consulting
 
-I am a computer science graduate from York University. Most recently, I worked as a Software Engineer at Viral Nation where I learned a lot about full stack web development and what it takes to build a production ready application. This includes not only engineering and operations, but more importantly, a focused team that can cohesively work together to meet and exceed business requirements. On my free time, I enjoy working on difficult technical challenges, particularly ones that if solved, can bring a lot of value to the world. For this reason, I like to keep up with the latest developments in machine learning research (specifically, reinforcement learning). The experience and skills I've gained over the years gives me the confidence to believe that I can be a valuable asset for any company. I am looking for a Software Developer role where I can apply my skills and grow as a developer.
+I am a computer science graduate from York University. Most recently, I worked as a Software Engineer at Viral Nation where I learned a lot about full stack web development and what it takes to build a production ready application. This includes not only engineering and operations, but more importantly, a focused team that can cohesively work together to meet business requirements. On my free time, I like to keep up with the latest developments in machine learning research (specifically, reinforcement learning). The experience and skills I've gained over the years gives me the confidence to believe that I can be a valuable asset for any company. I am looking for a Software Developer role where I can apply my skills and grow as a developer.
 
 ## Skills
 
@@ -50,3 +50,5 @@ Project source code: [https://github.com/raymond-van](https://github.com/raymond
 
 ## Miscellaneous
 - Running
+- Watching TV
+- Raptors fan
