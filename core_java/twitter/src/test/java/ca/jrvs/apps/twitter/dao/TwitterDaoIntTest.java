@@ -32,14 +32,9 @@ public class TwitterDaoIntTest {
     Double lat = 1d;
     Double lon = -1d;
     Tweet postTweet = TweetUtils.buildTweet(text, lon, lat);
-    System.out.println("posttweet" + postTweet.getCoordinates().getCoordinates().get(0));
-    System.out.println("posttweet" + postTweet.getCoordinates().getCoordinates().get(1));
     System.out.println(JsonUtils.toPrettyJson(postTweet));
 
     Tweet tweet = dao.create(postTweet);
-    System.out.println("tweet" + tweet.getText());
-    System.out.println("tweet" + tweet.getCoordinates());
-    System.out.println("tweet" + tweet.getCoordinates().getCoordinates().get(0));
 
     assertEquals(text, tweet.getText());
     assertNotNull(tweet.getCoordinates());
